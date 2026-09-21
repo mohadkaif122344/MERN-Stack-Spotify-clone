@@ -151,8 +151,10 @@ The application uses the "spotify" database.
 ### ⚙️ Backend Setup
 
 cd Backend
+```
 npm install
 npm run dev
+```
 
 Backend runs on:
 ```
@@ -161,23 +163,25 @@ http://localhost:4000
 ### 💻 Frontend Setup
 
 cd "Spotify frontend"
+```
 npm install
 npm run dev
-
+```
 ### 🛠️ Admin Setup
 
 Open another terminal:
 
 cd spotify-admin
+```
 npm install
 npm run dev
-
+```
 The admin panel communicates with the backend running on:
 ```
 http://localhost:4000
 ```
 ### 🔄 Application Flow
-
+```
 Admin Panel
     │
     ├── Add Song
@@ -198,8 +202,8 @@ Admin Panel
            │
            ▼
       Music Player
-
-🔮 Future Improvements
+```
+### 🔮 Future Improvements
 
 - User authentication
 - User playlists
