@@ -1,8 +1,8 @@
-🎵 MERN Spotify Clone
+## 🎵 MERN Spotify Clone
 
 A full-stack Spotify-inspired music streaming application built with the MERN stack. The project includes a user-facing music player, album and song browsing, audio controls, and a separate admin panel for managing songs and albums.
 
-🚀 Features
+### 🚀 Features
 
 - 🎵 Browse songs and albums
 - ▶️ Play and pause songs
@@ -17,7 +17,7 @@ A full-stack Spotify-inspired music streaming application built with the MERN st
 - 🗄️ MongoDB database
 - 📱 Responsive UI
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Frontend
 
@@ -47,8 +47,8 @@ Admin Panel
 - Tailwind CSS
 - React Toastify
 
-📂 Project Structure
-
+### 📂 Project Structure
+```
 MERN-Stack-Spotify-clone-main/
 │
 ├── Backend/
@@ -88,8 +88,8 @@ MERN-Stack-Spotify-clone-main/
     │   ├── App.jsx
     │   └── main.jsx
     └── package.json
-
-🎧 Music Player
+```
+### 🎧 Music Player
 
 The frontend provides:
 
@@ -101,7 +101,7 @@ The frontend provides:
 - Album-based song filtering
 - Dynamic songs and albums loaded from backend
 
-🛠️ Admin Panel
+### 🛠️ Admin Panel
 
 The admin panel provides:
 
@@ -116,55 +116,55 @@ The admin panel provides:
 - Select album while adding a song
 - Album background color selection
 
-🌐 API Endpoints
+### 🌐 API Endpoints
 
 Songs
-
+```
 POST /api/song/add
 GET  /api/song/list
 POST /api/song/remove
-
+```
 Albums
 
 POST /api/album/add
 GET  /api/album/list
 POST /api/album/remove
 
-☁️ Cloudinary
+### ☁️ Cloudinary
 
 Song audio files and images are uploaded to Cloudinary.
 
 Required environment variables:
-
+```
 CLOUDINARY_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_SECRET_KEY=your_cloudinary_secret_key
-
-🗄️ MongoDB
+```
+### 🗄️ MongoDB
 
 The backend connects to MongoDB using:
-
+```
 MONGODB_URI=your_mongodb_connection_string
-
+```
 The application uses the "spotify" database.
 
-⚙️ Backend Setup
+### ⚙️ Backend Setup
 
 cd Backend
 npm install
 npm run dev
 
 Backend runs on:
-
+```
 http://localhost:4000
-
-💻 Frontend Setup
+```
+### 💻 Frontend Setup
 
 cd "Spotify frontend"
 npm install
 npm run dev
 
-🛠️ Admin Setup
+### 🛠️ Admin Setup
 
 Open another terminal:
 
@@ -173,10 +173,10 @@ npm install
 npm run dev
 
 The admin panel communicates with the backend running on:
-
+```
 http://localhost:4000
-
-🔄 Application Flow
+```
+### 🔄 Application Flow
 
 Admin Panel
     │
@@ -213,5 +213,6 @@ Admin Panel
 👨‍💻 Author
 
 Mohad Kaif
-
+```
 GitHub: "https://github.com/mohadkaif122344"
+```
